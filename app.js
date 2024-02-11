@@ -13,7 +13,6 @@ function renderData(response) {
                                 <p><strong>Capital : </strong>${country.capital}</p>
                             </div>`
         countryCards.append(card)
-        console.log(country.name.common.length)
     });
 }
 

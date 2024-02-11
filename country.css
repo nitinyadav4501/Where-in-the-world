@@ -10,9 +10,9 @@ body{
     color: var(--text-color);
 }
 .lightMode {
-    --body-color: #3f3f3f;
+    --body-color: hsl(207, 26%, 17%);
     --text-color: white;
-    --header-color: #656363;
+    --card-color:hsl(209, 23%, 22%);
 }
 a {
     text-decoration: none;
@@ -28,7 +28,7 @@ a {
     box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
     padding-block: 16px;
     padding-inline: 20px;
-    background-color: var(--header-color);
+    background-color: var(--card-color);
 
 }
 .header{
@@ -55,7 +55,7 @@ a {
     border: none;
     padding-block: 10px;
     padding-inline: 30px;
-    background-color: var(--header-color);
+    background-color: var(--card-color);
     color: var(--text-color);
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2);
     margin-block: 60px;
